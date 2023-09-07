@@ -18,4 +18,4 @@ Youtube Data APi key
 
 4. Store the data in MongoDB : Create the database and collections to Store the extracted data using the pymongo library
 
-5.Migrate the data from MongoDb to SQL : Based on specific data create the tables, use pymysql library to establish connection with MySQL and migrate the data to tables
+ 5.Migrate the data from MongoDb to SQL : Based on specific data create the tables, use pymysql library to establish connection with MySQL and migrate the data to tables
