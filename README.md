@@ -7,3 +7,15 @@ Problem Statement: The problem statement is to create a Streamlit application th
 To run this project, you will need to add the following environment variables to your .env file
 
 Youtube Data APi key
+
+# Steps to be followed:
+
+1. Create the streamlit dashboard : Using Streamlit library create the dashboard as per the requirement, go through documentation to learn more on streamlit. https://docs.streamlit.io/library/api-reference/performance/st.cache_data
+
+2. Set up YouTube API access : Enable the YouTube Data API in Google Developers console and obtain API credentials, go through documentation to learn more on how to extract data using API https://developers.google.com/youtube/v3/docs
+
+3. Scrape the YouTube data : Using google-api-python-client library, extract the youtube channel, playlist, videos and comments details.
+
+4. Store the data in MongoDB : Create the database and collections to Store the extracted data using the pymongo library
+
+5.Migrate the data from MongoDb to SQL : Based on specific data create the tables, use pymysql library to establish connection with MySQL and migrate the data to tables
